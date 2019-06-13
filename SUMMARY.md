@@ -2,8 +2,8 @@
 
 * [前言](README.md)
 * [gitbook介绍](chapter1.md)
-* [目录结构](mu-lu-jie-gou.md)
 * [安装和设置](an-zhuang-he-she-zhi.md)
+* [目录结构](mu-lu-jie-gou.md)
 * [菜单与页面](cai-dan-yu-ye-mian.md)
 * [配置](pei-zhi.md)
 * [词汇表](ci-hui-biao.md)
