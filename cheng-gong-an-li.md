@@ -1,4 +1,4 @@
-# 例子 {#例子}
+# 成功案例 {#例子}
 
 已经有超过50,000本图书使用[GitBook.com](https://www.gitbook.com/explore)发布。
 
@@ -8,8 +8,6 @@
 * [Loomio Handbook](http://loomio.coop/) and [guide to using Loomio](https://loomio.gitbooks.io/manual/content/en/index.html) both by [Loomio](https://www.loomio.org/)
 * [Enspiral Handbook](http://handbook.enspiral.com/) by [Enspiral](http://enspiral.com/)
 * [Webmagic开发文档](http://webmagic.io/) by [https://github.com/code4craft/webmagic](http://enspiral.com/)
-
-
 
 ### 图书 {#图书}
 
