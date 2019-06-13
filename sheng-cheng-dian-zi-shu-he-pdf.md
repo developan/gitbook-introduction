@@ -11,7 +11,6 @@ $ gitbook epub ./ ./mybook.epub
 
 ＃生成Mobi文件
 $ gitbook mobi ./ ./mybook.mobi
-
 ```
 
 ### 安装ebook-convert {#安装ebook-convert}
@@ -24,17 +23,12 @@ $ gitbook mobi ./ ./mybook.mobi
 
 ```
 $ sudo aptitude install calibre
-
 ```
 
 在某些Linux发行版中安装nodejs，您还需要手动创建一个nodejs软链接：
 
 ```
-$sudo
- ln 
--s
- /usr/bin/nodejs /usr/bin/node
-
+$sudo ln -s /usr/bin/nodejs /usr/bin/node
 ```
 
 ##### 苹果OS X系统 {#苹果os-x系统}
@@ -42,10 +36,7 @@ $sudo
 下载[Caliber应用程序](https://calibre-ebook.com/download)。将`calibre.app`移动到您的应用程序文件夹后，创建一个指向ebook-convert工具的软件链接：
 
 ```
-$ sudo ln 
--s
- /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/bin
-
+$ sudo ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/bin
 ```
 
 这样就可以在任何目录下执行目录执行`ebook-convert`命令。
@@ -53,11 +44,8 @@ $ sudo ln
 如果出现`Operation not permitted`异常，说明系统权限限制，需要配置环境变量的方式解决
 
 ```
-$ sudo ln 
--s
- /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/bin
+$ sudo ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/bin
 ln: /usr/bin/ebook-convert: Operation not permitted
-
 ```
 
 环境变量配置
@@ -66,7 +54,6 @@ ln: /usr/bin/ebook-convert: Operation not permitted
 
 ```
 vim ~/.bash_profile 
-
 
 export
  EBOOK_PATH=/Applications/calibre.app/Contents/MacOS
@@ -81,9 +68,7 @@ $EBOOK_PATH
 然后刷新一下刚刚的配置:
 
 ```
-source
- ~/.bash_profile
-
+source ~/.bash_profile
 ```
 
 最后测试一下`ebook-convert`指令是否能正常被调用：
@@ -92,9 +77,7 @@ source
 $ ebook-convert --version
 ebook-convert (calibre 2.81.0)
 Created by: Kovid Goyal 
-<
-kovid@kovidgoyal.net
->
+<kovid@kovidgoyal.net>
 ```
 
 大功告成！下面就可以使用`gitbook pdf ./ ./mybook.pdf`命令把你的项目生成pdf文档了！
@@ -103,7 +86,7 @@ kovid@kovidgoyal.net
 
 所有格式电子书都可以创建封面。在安装完可以自己提供一个，或使用[autocover插件](https://plugins.gitbook.com/plugin/autocover)生成一个。
 
-要创建封面，请在您的书的根目录下放置一个**`cover.jpg`**文件。还可以添加**`cover_small.jpg`**指定一个较小版本的封面。封面图片格式必须是**JPEG**文件。
+要创建封面，请在您的书的根目录下放置一个`cover.jpg`文件。还可以添加`cover_small.jpg`指定一个较小版本的封面。封面图片格式必须是**JPEG**文件。
 
 一个合格的封面应遵守以下准则：
 
@@ -123,7 +106,6 @@ kovid@kovidgoyal.net
 $ cd ~/gitbook-cn
 
 $ gitbook pdf ./ ./gitbook.pdf
-
 ```
 
 * pdf： 表示生成pdf格式，还有epub、mobi可选
