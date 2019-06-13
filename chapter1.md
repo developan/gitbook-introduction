@@ -1,4 +1,4 @@
-# 什么是gitbook
+# gitbook介绍
 
 GitBook是一款文档编辑工具。它的功能类似金山WPS中的Word或者微软Office中的Word的文档编辑工具。它可以用来写文档、建表格、插图片、生成pdf。 当然，以上的功能WPS、Office可能做得更好，但是，GitBook还有更最强大的功能：它可以用文档建立一个网站，让更多人了解你写的书，另外，最最核心的是，他支持Git，也就意味着，它是一个分布式的文档编辑工具。 你可以随时随地来编写你的文档，也可以多人共同编写文档，哪怕多人编写同一页文档，它也能记录每个人的内容，然后告诉你他们之间的区别，也能记录你的每一次改动，你可以查看每一次的书写记录和变化，哪怕你将文档都删除了，它也能找回来！ 这就是它继承Git后的厉害之处！
 
@@ -6,7 +6,7 @@ GitBook是一款文档编辑工具。它的功能类似金山WPS中的Word或者
 
 在GitBook中，你可以使用Markdown或者AsciiDoc语法，加上几个命令就能创建一本漂亮的图书。这种便利就像Node.js一样。GitBook支持GitHub或者git来管理文章的改动和版本。你可以参考这个例子：[ReduxJS documentation](http://redux.js.org/)Or[WebMagic Java爬虫文档](http://webmagic.io/docs/zh/).
 
-你可以在自己电脑上使用GitBook来写一本书，也可以通过[GitBook.com](https://www.gitbook.com/)线方式写一本书。 还可以在自己电脑上安装[桌面版的GitBook编辑器](https://www.gitbook.com/editor).
+你可以在自己电脑上使用GitBook来写一本书，也可以通过[GitBook.com](https://www.gitbook.com/)在线方式写一本书。 还可以在自己电脑上安装[桌面版的GitBook编辑器](https://www.gitbook.com/editor).
 
 你可以加入[GitBook社区](https://slack.gitbook.com/)也可以在推特账号[@GitBookIO](https://twitter.com/GitBookIO)或脸谱账号[GitBook](https://www.facebook.com/gitbookcom)中获取我们的最新进展或者留言。
 
@@ -47,6 +47,4 @@ GitBook可以用来写书，API文档、公共文档，企业手册，论文，�
 ## 授权许可 {#授权许可}
 
 GitBook的授权许可使用的是Apache License, Version 2.0.
-
-
 
