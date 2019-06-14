@@ -1,6 +1,6 @@
 {
     "title": "gitbook简单介绍",
-    "author": "pangaofeng",
+    "author": "developan",
     "plugins": [
         "-lunr",
         "-search",
@@ -52,10 +52,10 @@
             "shortName": "gitbookuse"
         },
         "github": {
-            "url": "https://localhost:4000"
+            "url": "https://github.com/developan/gitbook-introduction"
         },
         "github-buttons": {
-            "repo": "zhangjikai/gitbook-use",
+            "repo": "developan/gitbook-introduction",
             "types": [
                 "star"
             ],
@@ -111,7 +111,7 @@
             "skipFirstH1": true
         },
         "edit-link": {
-            "base": "https://github.com/zhangjikai/gitbook-use/edit/master",
+            "base": "https://github.com/developan/gitbook-introduction/edit/master",
             "label": "Edit This Page"
         },
         "sitemap-general": {
