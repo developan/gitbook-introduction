@@ -1,3 +1,7 @@
+---
+description: This is a short description of my page
+---
+
 # 词汇表 {#词汇表}
 
 您可以指定要显示为注释的术语及其相应的定义。 基于这些术语，GitBook在编译的时候会自动构建索引并在页面中突出显示这些术语。
