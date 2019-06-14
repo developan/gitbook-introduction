@@ -13,4 +13,5 @@
 * [成功案例](cheng-gong-an-li.md)
 * [gitbook的一些资源](gitbookde-yi-xie-zi-yuan.md)
 * [强大的插件](qiang-da-de-cha-jian.md)
+* [gitbook集成github](gitbookji-cheng-github.md)
 
