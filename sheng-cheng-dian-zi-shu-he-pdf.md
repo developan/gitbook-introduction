@@ -105,13 +105,15 @@ Created by: Kovid Goyal
 ```
 $ cd ~/gitbook-cn
 
-$ gitbook pdf ./ ./gitbook.pdf
+$ gitbook pdf ./ ./gitbook-introduction.pdf
 ```
 
 * pdf： 表示生成pdf格式，还有epub、mobi可选
 * ./ ： 表示需要生成书籍的项目根目录
 * ./gitbook.pdf : 表示生成书籍的名称
 * 如果你的书籍有多种语言，就会生成多本书籍，书籍的名称会以语言结尾
+
+
 
 
 
