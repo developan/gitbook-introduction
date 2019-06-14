@@ -13,21 +13,11 @@ GitBook使用一个`SUMMARY.md`文件来定义文档的菜单。
 ```
 # 概述
 ### 第一部分
-* 
-[
-第一部分
-](
-part1/README.md
-)
+* [第一部分](part1/README.md)
 
     * [Writing很牛](part1/README.md#writing)
     * [GitBook很牛](part1/README.md#gitbook)
-* 
-[
-第二部分
-](
-part2/README.md
-)
+* [第二部分](part2/README.md)
 
     * [我们喜欢社交网络](part2/README.md#feedback)
     * [更好的写作工具](part2/README.md#tools)
@@ -42,21 +32,11 @@ part2/README.md
 ```
 # 概述
 ### 第一部分
-* 
-[
-第一部分
-](
-part1/README.md
-)
+* [第一部分](part1/README.md)
 
     * [Writing很牛](part1/README.md#writing)
     * [GitBook很牛](part1/README.md#gitbook)
-* 
-[
-第二部分
-](
-part2/README.md
-)
+* [第二部分](part2/README.md)
 
     * [我们喜欢社交网络](part2/README.md#feedback)
     * [更好的写作工具](part2/README.md#tools)
@@ -84,7 +64,6 @@ _most_
 
 
 ...
-
 ```
 
 部分只是章节组，没有对应的页面，但根据不同主题，它会显示在导航中。
@@ -114,7 +93,6 @@ Markdown将决定
 
 
 ... ...
-
 ```
 
 #### 顶部描述 {#顶部描述}
@@ -134,7 +112,6 @@ description:
 # The content of my page
 
 ...
-
 ```
 
 顶部描述的内容可以定义自己的变量，可以参考[页面变量](http://gitbook.hushuang.me/templating/variables.html)，以便您可以在模板中使用它们。
