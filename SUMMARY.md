@@ -12,5 +12,5 @@
 * [生成电子书和pdf](sheng-cheng-dian-zi-shu-he-pdf.md)
 * [成功案例](cheng-gong-an-li.md)
 * [gitbook的一些资源](gitbookde-yi-xie-zi-yuan.md)
-* 强大的插件
+* [强大的插件](qiang-da-de-cha-jian.md)
 
